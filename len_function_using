@@ -1,0 +1,5 @@
+#In this program we learn to know that len() cannot concatinate int to str so wht we can do
+
+num_char=len(input("What is your name?"))
+new_num_char=str(num_char)#converting to string
+print("Your name has " +new_num_char+ " Characters")

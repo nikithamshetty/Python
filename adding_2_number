@@ -1,0 +1,6 @@
+#adding 2 numbers
+two_number=input()
+first_number=int(two_number[0])
+second_number=int(two_number[1])
+two_number=first_number+second_number
+print(two_number)
