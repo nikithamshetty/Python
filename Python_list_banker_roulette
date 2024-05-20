@@ -1,0 +1,8 @@
+#getting random names
+
+import random
+names_string=["James", "Mohan", "Rajesh", "Madhu"]
+
+getting_length=len(names_string)
+random_choice=random.randint(0, getting_length-1)
+print(names_string[random_choice]+ " is going to buy the meal today!")
